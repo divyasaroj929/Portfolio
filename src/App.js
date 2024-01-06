@@ -12,7 +12,7 @@ function App() {
       {/* <DarkTheme /> */}
       {/* <Home /> */}
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/Portfolio" element={<Home />} />
         <Route path="/intro" element={<Info_page />} />
         <Route path="/about" element={<About />} />
         <Route path="/project" element={<Project />} />
