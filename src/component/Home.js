@@ -22,7 +22,6 @@ import redux from "./dataimage/redux.png";
 import Skill from "./All-page/Skill";
 
 import myresume from "./dataimage/myresume.pdf";
-import Headroom from "react-headroom";
 
 <MdArrowRightAlt />;
 const Home = () => {
