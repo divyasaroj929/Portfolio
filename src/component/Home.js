@@ -102,14 +102,19 @@ const Home = () => {
 
   const link_din = `https://linkedin.com/in/divya-saroj-b1b3321b3`;
   const navItem = [
-    {
-      name: "info",
-      path: "/",
-    },
+    // {
+    //   name: "Home",
+    //   path: "/",
+    // },
     {
       name: "About",
       path: "/about",
     },
+    {
+      name: "Skill",
+      path: "/Skill",
+    },
+
     {
       name: "Project",
       path: "/project",
@@ -155,7 +160,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="h-screen w-screen bg-slate-300 overflow-scroll md:h-screen w-screen bg-slate-300 overflow-scroll lg:h-screen w-screen bg-slate-300 ">
+      <div className="h-screen font-custom w-screen bg-slate-300 overflow-scroll md:h-screen w-screen bg-slate-300 overflow-scroll lg:h-screen w-screen bg-slate-300 ">
         {resizeWidth ? (
           <>
             <DarkTheme />

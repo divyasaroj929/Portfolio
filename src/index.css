@@ -21,8 +21,8 @@ html {
   position: absolute;
   width: 50vw;
   height: 50vw;
-  min-width: 350px;
-  min-height: 350px;
+  min-width: 400px;
+  min-height: 400px;
   top: -128px;
   left: 20vw;
   border: 764px;
@@ -42,4 +42,25 @@ html {
   width: 200px;
   height: 200px;
   rotate: 180deg;
+}
+
+.show {
+  border: none;
+
+  transition: all 2s ease-in-out;
+
+  animation-name: h3;
+  animation-duration: 4s;
+
+  outline: none;
+}
+@keyframes h3 {
+  from {
+    width: 0px;
+    font-size: 0;
+  }
+  to {
+    width: 100%;
+    font-size: 30px;
+  }
 }

@@ -87,15 +87,15 @@ const Card = ({ resizeWidth, data }) => {
                         <img
                           src={item.img}
                           alt=""
-                          className="bg-cover backface-hidden h-full w-full"
+                          className="bg-cover backface-hidden h-full w-full "
                         />
                       </div>
                       <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 ">
                         <div className=" h-full  bg-black/30 backdrop-blur-2xl dark:bg-slate-200 dark:text-neutral-900 text-neutral-100 overflow-hidden">
-                          <h1 className=" text-center text-3xl font-semibold pl-3 pt-6 ">
+                          <h1 className=" text-center text-3xl font-semibold pl-2 pt-5 ">
                             {item.cardTitle}
                           </h1>
-                          <h6 className="text-2xl font-normal p-5 flex justify-center items-center pl-5">
+                          <h6 className="text-2xl font-normal p-5 flex justify-center items-center pl-5 pb-3">
                             {item.cardSubTitle}
                           </h6>
                         </div>
@@ -124,7 +124,7 @@ const Card = ({ resizeWidth, data }) => {
                    md:"
                   >
                     <div>
-                      <img src={item.img} alt="" className="bg-cover" />
+                      <img src={item.img} alt="" className="bg-cover " />
                     </div>
                     <div
                       className=" layer absolute left-10 bottom-20 text-left font-bold uppercase text-3xl  text-slate-700 
@@ -133,7 +133,7 @@ const Card = ({ resizeWidth, data }) => {
                       <div className="mb-2 text-1xl lg:mb-2 ">
                         {item.cardTitle}
                       </div>
-                      <div className="text-xs lg:text-xl text-black font-semibold">
+                      <div className="text-xs lg:text-xl  text-black font-semibold">
                         {item.cardSubTitle}
                       </div>
                     </div>

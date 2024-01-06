@@ -5,23 +5,46 @@ const About = () => {
     <>
       <div
         // className=" w-[100%] h-full bg-gray-300 flex flex-col justify-center items-center p-9 mb-3 relative example dark:bg-slate-950 dark:text-white"
-        className=" bg-gray-200 flex flex-col items-start p-12 dark:bg-slate-950 dark:text-white "
+        className=" bg-gray-200 font-lemon serif flex flex-col items-start p-12 dark:bg-slate-950 dark:text-white "
       >
         <p className=" text-2xl p-5 aboutItem rounded-xl list-none p-5 hover:bg-gradient-to-r from-blue-300 to-gray-500 ease-in duration-300 bg-no-repeat hover:bg-cover">
-          Hello I'M divya saroj ,A Frontend Web Developer CSS ENTHUSIAST AND i
-          like to build user interface.
+          Greetings! I'm Divya Saroj, a self-taught Frontend Web Developer
+          residing in the vibrant city of Raipur, Chhattisgarh. With a fervor
+          for crafting seamless user experiences, I've honed my skills in HTML,
+          CSS, and JavaScript.
         </p>
         <br></br>
         <p className=" text-2xl p-5 aboutItem rounded-xl list-none p-5 hover:bg-gradient-to-r from-blue-300 to-gray-500 ease-in duration-300 bg-no-repeat hover:bg-cover">
-          I have work on HTML,CSS JAVASCRIPT, REACT-JS,REDUX-TOOLKIT to produce
-          responsive websites. I like to learn new things in my day to day life.
+          My toolkit includes a mastery of HTML, CSS, and JavaScript, coupled
+          with proficiency in React-JS and Redux-Toolkit. This amalgamation
+          allows me to design and develop responsive websites that marry
+          aesthetics with functionality.
         </p>
         <br></br>
         <p className=" text-2xl p-5 aboutItem rounded-xl list-none p-5 hover:bg-gradient-to-r from-blue-300 to-gray-500 ease-in duration-300 bg-no-repeat hover:bg-cover">
-          Personally, I love to read Novel when I'm getting bore. I like to go
-          outside and have some fun.
+          I take pride in my diverse portfolio of projects, each a testament to
+          my commitment to innovation and quality. From concept to execution, I
+          strive to deliver solutions that captivate users and meet the highest
+          standards.
         </p>
-      </div>{" "}
+        <p className=" text-2xl p-5 aboutItem rounded-xl list-none p-5 hover:bg-gradient-to-r from-blue-300 to-gray-500 ease-in duration-300 bg-no-repeat hover:bg-cover">
+          The dynamic nature of web development propels me to stay at the
+          forefront of emerging technologies. I am passionate about continual
+          learning and thrive in an environment that challenges me to evolve and
+          adapt.
+        </p>
+        <p className=" text-2xl p-5 aboutItem rounded-xl list-none p-5 hover:bg-gradient-to-r from-blue-300 to-gray-500 ease-in duration-300 bg-no-repeat hover:bg-cover">
+          When not immersed in lines of code, you'll find me immersed in the
+          pages of a novel, seeking inspiration from the boundless worlds
+          within. I also relish the outdoors, finding joy in the simplicity of
+          fun-filled activities.
+        </p>
+        <p className=" text-2xl p-5 aboutItem rounded-xl list-none p-5 hover:bg-gradient-to-r from-blue-300 to-gray-500 ease-in duration-300 bg-no-repeat hover:bg-cover">
+          I am enthusiastic about the limitless possibilities in web development
+          and am eager to contribute my skills to innovative projects. Let's
+          collaborate and bring extraordinary ideas to life!
+        </p>
+      </div>
       {/* <section className="container w-[80%] relative bg-gray-900 rounded-2xl p-7 ml-10 mt-5 ">
         <h2 className="title text-xl text-slate-50 font-semibold space-x-3 uppercase">
           About

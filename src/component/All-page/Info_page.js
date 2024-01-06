@@ -5,9 +5,9 @@ import myresume from "../dataimage/myresume.pdf";
 const Info_page = () => {
   return (
     <>
-      <div className=" w-[100%] h-full bg-gray-300 flex flex-col flex-wrap justify-center items-center p-9 mb-3 relative example font-Crimson Pro dark:bg-slate-950 dark:text-white">
+      <div className=" w-[100%] h-full bg-gray-300 flex flex-col flex-wrap justify-center items-center overflow-hidden p-9 mb-3 relative example font-Crimson Pro dark:bg-slate-950 dark:text-white">
         <p className="absolute top-10 left-10">Divya Saroj</p>
-        <p className="text-7xl text-slate-700 pt-3  mb-10  md:text-8xl dark:text-slate-200">
+        <p className="text-6xl text-slate-700 pt-3  mb-10  md:text-7xl dark:text-slate-100">
           <span className="line_first" id="one">
             Frontend
           </span>

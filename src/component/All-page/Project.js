@@ -21,6 +21,9 @@ const Project = ({ resizeWidth }) => {
       img: Myntra,
       cardTitle: "Myntra",
       cardSubTitle: " learned about concept of css and use react-router-dom",
+      cardSubTitle:
+        "Creating a Myntra-flavored UI: React Router and Navbar Styling in My Project",
+
       cardLink: "https://divyasaroj929.github.io/myntra/",
     },
     {
@@ -33,13 +36,15 @@ const Project = ({ resizeWidth }) => {
     {
       img: wizard,
       cardTitle: "multipurpose modal form",
-      cardSubTitle: "",
+      cardSubTitle:
+        "Form Evolution: Transforming User Interaction with a Feature-rich Modal",
       cardLink: "https://divyasaroj929.github.io/SearchFunction/",
     },
     {
       img: cellComponent,
-      cardTitle: "Search",
-      cardSubTitle: "learned about     ",
+      cardTitle: "Fixed Sidebar with Content",
+      cardSubTitle:
+        " Building Modern Layouts: A Journey into React, CSS, and Router-Dom     ",
 
       cardLink: "https://divyasaroj929.github.io/cell-Component/",
     },
