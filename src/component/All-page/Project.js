@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import Cards from "../card/Cards";
+import React from "react";
 import Card from "../card/Card";
 
 import signup from "../dataimage/signup.png";
@@ -10,7 +9,6 @@ import Myntra from "../dataimage/Myntra.png";
 import searchfun from "../dataimage/searchfun.png";
 
 const Project = ({ resizeWidth }) => {
-  const [show, setShow] = useState(false);
   const data = [
     {
       img: signup,
@@ -55,19 +53,20 @@ const Project = ({ resizeWidth }) => {
   console.log(data);
   return (
     <>
-      <div className="box w-[100%] h-auto  bg-gray-300 overflow-hidden flex   flex-col flex-wrap justify-center items-center p-9  mb-3 example dark:bg-slate-950 dark:text-white">
+      <div className="box w-[100%]  relative h-auto  bg-gray-300 overflow-hidden flex   flex-col flex-wrap justify-center items-center p-9  mb-3 example dark:bg-slate-950 dark:text-white">
         {resizeWidth ? (
           <div className=" text-slate-700 text-3xl font-bold  flex justify-center items-center mb-6 dark:text-slate-100">
             <h1>Project</h1>
           </div>
         ) : (
           <>
-            <div className=" text-slate-700 text-3xl font-bold mb-6 dark:text-slate-100">
+            <div className=" text-slate-700 text-3xl font-bold mb-6  dark:text-slate-100 w-full flex justify-start items-start  ">
               <h1>Project</h1>
             </div>
           </>
         )}
-        <Card data={data} show={show} resizeWidth={resizeWidth} />
+
+        <Card data={data} resizeWidth={resizeWidth} />
       </div>
     </>
   );

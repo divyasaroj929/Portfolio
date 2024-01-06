@@ -1,5 +1,4 @@
 import React from "react";
-import Home from "../Home";
 import Button from "./Button ";
 import myresume from "../dataimage/myresume.pdf";
 

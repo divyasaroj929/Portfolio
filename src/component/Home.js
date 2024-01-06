@@ -26,7 +26,6 @@ import myresume from "./dataimage/myresume.pdf";
 <MdArrowRightAlt />;
 const Home = () => {
   const [isNavbarHidden, setIsNavbarHidden] = useState(false);
-  const [scrollPosition, setScrollPosition] = useState(0);
 
   const [resizeWidth, setResizeWidth] = useState(false);
 
@@ -101,7 +100,7 @@ const Home = () => {
   // const footerRect = footer.getBoundingClientRect();
   // console.log("footerRect.top:", footerRect.top);
 
-  const linkdin = `https://linkedin.com/in/divya-saroj-b1b3321b3`;
+  const link_din = `https://linkedin.com/in/divya-saroj-b1b3321b3`;
   const navItem = [
     {
       name: "info",
@@ -144,7 +143,7 @@ const Home = () => {
     },
     {
       icon: <FaLinkedinIn />,
-      link: linkdin,
+      link: link_din,
       name: "linkdin",
     },
     {

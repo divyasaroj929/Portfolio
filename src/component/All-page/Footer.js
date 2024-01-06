@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 const Footer = ({ data, id }) => {
   const navigate = useNavigate();
   const comeHomeScreenAgian = () => {
-    navigate("/");
+    navigate("/Portfolio");
   };
   // console.log(data);
   return (
