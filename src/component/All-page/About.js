@@ -1,12 +1,26 @@
 import React from "react";
 
-const About = () => {
+const About = ({ resizeWidth }) => {
+  console.log(resizeWidth);
   return (
     <>
       <div
         // className=" w-[100%] h-full bg-gray-300 flex flex-col justify-center items-center p-9 mb-3 relative example dark:bg-slate-950 dark:text-white"
         className=" bg-gray-200 font-lemon serif flex flex-col items-start p-12 dark:bg-slate-950 dark:text-white "
       >
+        {resizeWidth ? (
+          <div className=" w-full font-lemon text-slate-700 text-3xl font-bold flex justify-center items-center mb-6 dark:text-slate-100">
+            <h1>About</h1>
+          </div>
+        ) : (
+          <>
+            {" "}
+            <div className=" font-lemon text-slate-700 text-3xl font-bold mb-6 dark:text-slate-100">
+              <h1>About</h1>
+            </div>
+          </>
+        )}
+
         <p className=" text-2xl p-5 aboutItem rounded-xl list-none p-5 hover:bg-gradient-to-r from-blue-300 to-gray-500 ease-in duration-300 bg-no-repeat hover:bg-cover">
           Greetings! I'm Divya Saroj, a self-taught Frontend Web Developer
           residing in the vibrant city of Raipur, Chhattisgarh. With a fervor

@@ -9,12 +9,12 @@ const Skill = ({ resizeWidth, data }) => {
     <>
       <div className=" box w-[100%] h-auto  bg-gray-300 overflow-hidden   p-9  mb-3 example dark:bg-slate-950 dark:text-white">
         {resizeWidth ? (
-          <div className=" text-slate-700 text-3xl font-bold  flex justify-center items-center mb-6 dark:text-slate-100">
+          <div className=" font-lemon text-slate-700 text-3xl font-bold  flex justify-center items-center mb-6 dark:text-slate-100">
             <h1>Skill</h1>
           </div>
         ) : (
           <>
-            <div className=" text-slate-700 text-3xl font-bold mb-6 dark:text-slate-100">
+            <div className=" font-lemon text-slate-700 text-3xl font-bold mb-6 dark:text-slate-100">
               <h1>Skill</h1>
             </div>
           </>

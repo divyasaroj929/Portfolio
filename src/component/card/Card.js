@@ -130,10 +130,10 @@ const Card = ({ resizeWidth, data }) => {
                       className=" layer absolute left-10 bottom-20 text-left font-bold uppercase text-3xl  text-slate-700 
                     md:"
                     >
-                      <div className="mb-2 text-1xl lg:mb-2 ">
+                      <div className=" font-lemon mb-2 text-1xl lg:mb-2 ">
                         {item.cardTitle}
                       </div>
-                      <div className="text-xs lg:text-xl  text-black font-semibold">
+                      <div className=" font-custom text-xs lg:text-xl  text-slate-700 font-semibold">
                         {item.cardSubTitle}
                       </div>
                     </div>

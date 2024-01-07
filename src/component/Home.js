@@ -13,12 +13,12 @@ import { SiGmail } from "react-icons/si";
 import { MdOutlineContactPage } from "react-icons/md";
 import { MdArrowRightAlt } from "react-icons/md";
 
-import html from "./dataimage/html.png";
-import css from "./dataimage/css.png";
-import java from "./dataimage/java.png";
-import react from "./dataimage/react.png";
-import taliwind from "./dataimage/taliwind.png";
-import redux from "./dataimage/redux.png";
+import html from "./dataimage/html.svg";
+import css from "./dataimage/css.svg";
+import java from "./dataimage/java.svg";
+import tailwind from "./dataimage/tailwind.svg";
+import reactjs from "./dataimage/reactjs.svg";
+import redux from "./dataimage/redux.svg";
 import Skill from "./All-page/Skill";
 
 import myresume from "./dataimage/myresume.pdf";
@@ -32,7 +32,10 @@ const Home = () => {
   console.log(resizeWidth);
   useEffect(() => {
     const handleResize = () => {
-      setResizeWidth(window.innerWidth < 768); // Change the breakpoint according to your needs
+      setResizeWidth(window.innerWidth < 768);
+      console.log(window.innerWidth < 768); // Change the breakpoint according to your needs
+
+      console.log(resizeWidth);
     };
 
     // Initial check
@@ -131,10 +134,10 @@ const Home = () => {
       icon: java,
     },
     {
-      icon: react,
+      icon: reactjs,
     },
     {
-      icon: taliwind,
+      icon: tailwind,
     },
     {
       icon: redux,
@@ -165,7 +168,7 @@ const Home = () => {
           <>
             <DarkTheme />
             <Info_page />
-            <About />
+            <About resizeWidth={resizeWidth} />
             <Skill data={skillData} resizeWidth={resizeWidth} />
             <Project resizeWidth={resizeWidth} />
             <Footer data={footerItem} id="footer" />
@@ -179,7 +182,7 @@ const Home = () => {
               id="navbar"
             />
             <Info_page />
-            <About />
+            <About resizeWidth={resizeWidth} />
             <Skill data={skillData} resizeWidth={resizeWidth} />
             <Project resizeWidth={resizeWidth} />
             <Footer data={footerItem} id="footer" />

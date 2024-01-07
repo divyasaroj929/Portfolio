@@ -60,12 +60,12 @@ const Project = ({ resizeWidth }) => {
     <>
       <div className="box w-[100%]  relative h-auto  bg-gray-300 overflow-hidden flex   flex-col flex-wrap justify-center items-center p-9  mb-3 example dark:bg-slate-950 dark:text-white">
         {resizeWidth ? (
-          <div className=" text-slate-700 text-3xl font-bold  flex justify-center items-center mb-6 dark:text-slate-100">
+          <div className="font-lemon text-slate-700 text-3xl font-bold  flex justify-center items-center mb-6 dark:text-slate-100">
             <h1>Project</h1>
           </div>
         ) : (
           <>
-            <div className=" text-slate-700 text-3xl font-bold mb-6  dark:text-slate-100 w-full flex justify-start items-start  ">
+            <div className="font-lemon text-slate-700 text-3xl font-bold mb-6  dark:text-slate-100 w-full flex justify-start items-start  ">
               <h1>Project</h1>
             </div>
           </>
