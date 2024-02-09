@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import html from "../../component/dataimage/html.svg";
 import css from "../../component/dataimage/css.svg";
 import java from "../../component/dataimage/java.svg";

@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../navbar/Navbar";
 import Heroimg from "../component/Heroimg";
 import Footer from "../footer/Footer";
-import DarkTheme from "../../component/All-page/DarkTheme";
 import Project from "./Project";
 import About from "./About";
 import Skill from "./Skill";
@@ -13,7 +12,6 @@ const Home = () => {
 
   return (
     <>
-      {/* <DarkTheme /> */}
       <Navbar navItem={navItem} id="navbar" />
       <Heroimg />
       <About />
