@@ -36,7 +36,7 @@ const DarkTheme = () => {
 
   return (
     <>
-      <div className="fixed top-10 right-10 duration-100 dark:slate-700 bg-gray-100  dark:text-white rounded z-50">
+      <div className="fixed top-8 left-80 duration-100 dark:slate-700 bg-gray-100  dark:text-white rounded z-50">
         {options.map((opt) => {
           return (
             <>
