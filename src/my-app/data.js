@@ -7,6 +7,7 @@ import weather from "../component/dataimage/weather.png";
 import cellComponent from "../component/dataimage/cellComponent.png";
 import wizard from "../component/dataimage/wizard.png";
 import searchfun from "../component/dataimage/searchfun.png";
+import gametictactoe from "../component/dataimage/gametictactoe.png";
 
 const link_din = `https://linkedin.com/in/divya-saroj-b1b3321b3`;
 
@@ -53,11 +54,17 @@ export const data = [
   {
     img: Myntra,
     cardTitle: "Myntra",
-    cardSubTitle: " learned about concept of css and use react-router-dom",
     cardSubTitle:
       "Creating a Myntra-flavored UI: React Router and Navbar Styling in My Project",
 
     cardLink: "https://divyasaroj929.github.io/myntra/",
+  },
+  {
+    img: gametictactoe,
+    cardTitle: "Tic-Tac-Toe",
+    cardSubTitle:
+      "Crafted a React-based Tic-Tac-Toe game with intuitive gameplay and efficient state handling.",
+    cardLink: "https://divyasaroj929.github.io/tic-toc-toe/",
   },
   {
     img: weather,
@@ -65,7 +72,6 @@ export const data = [
     cardSubTitle: " learned about how to call fetch API and use debounce",
     cardLink: "https://divyasaroj929.github.io/Weatherapp/",
   },
-
   {
     img: wizard,
     cardTitle: "multipurpose modal form",
